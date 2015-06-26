@@ -1,3 +1,3 @@
-class activity < ActiveRecord::Base
-  
+class Activity < ActiveRecord::Base
+
 end
