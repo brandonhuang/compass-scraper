@@ -6,8 +6,14 @@ configure do
 
 if development?
   set :database, {
-    adapter: "sqlite3",
-    database: "db/db.sqlite3"
+    adapter: "postgresql",
+    database: "d1sn01s5ri49fu",
+    host: "ec2-54-227-249-165.compute-1.amazonaws.com",
+    user: "zumbqxstegddgc",
+    port: 5432,
+    password: "8gplBMC7fCJv7LQaruTOo-3OvP",
+    
+
   }
 else
   set :database, ENV['DATABASE_URL']
