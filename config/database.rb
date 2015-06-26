@@ -10,7 +10,7 @@ configure do
     host: "ec2-54-227-249-165.compute-1.amazonaws.com",
     user: "zumbqxstegddgc",
     port: 5432,
-    password: "8gplBMC7fCJv7LQaruTOo-3OvP",
+    password: "8gplBMC7fCJv7LQaruTOo-3OvP"
 
     }
   # Load all models from app/models, using autoload instead of require
