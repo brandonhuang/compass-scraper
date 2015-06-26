@@ -3,6 +3,8 @@ source "https://rubygems.org"
 
 gem 'rake'
 gem 'activesupport'
+gem 'mechanize'
+gem 'nokogiri'
 
 gem 'sinatra'
 gem 'sinatra-contrib'
