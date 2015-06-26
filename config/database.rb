@@ -4,7 +4,6 @@ configure do
     ActiveRecord::Base.logger = Logger.new(STDOUT)
   end
 
-if development?
   set :database, {
     adapter: "postgresql",
     database: "d1sn01s5ri49fu",
@@ -12,12 +11,8 @@ if development?
     user: "zumbqxstegddgc",
     port: 5432,
     password: "8gplBMC7fCJv7LQaruTOo-3OvP",
-    
 
-  }
-else
-  set :database, ENV['DATABASE_URL']
-end
+    }
   # Load all models from app/models, using autoload instead of require
   # See http://www.rubyinside.com/ruby-techniques-revealed-autoload-1652.html
   Dir[APP_ROOT.join('app', 'models', '*.rb')].each do |model_file|
