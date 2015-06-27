@@ -1,0 +1,29 @@
+body {
+	font-family: Roboto, sans-serif;
+}
+h1 {
+	margin: 40px 0 5px 0;
+	text-align: center;
+
+	img {
+		display: inline-block;
+		height: 50px;
+		position: relative;
+		top: -3px;
+		padding: 0 10px;
+	}
+}
+p {
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+form {
+	padding: 5px 0 18px 0;
+
+	input[type="text"] {
+		width: calc(100% - 104px) !important;
+	}
+	input[type="submit"] {
+		width: 100px;
+	}
+}

@@ -1,8 +1,3 @@
-# Homepage (Root path)
-require 'rubygems'
-require 'mechanize'
-
-
 get '/' do
 
   @results = Activity.all
