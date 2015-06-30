@@ -22,4 +22,8 @@ form {
   form input[type="submit"] {
     width: 100px; }
 
+#logo {
+  color: #333;
+  text-decoration: none; }
+
 /*# sourceMappingURL=application.css.map */
